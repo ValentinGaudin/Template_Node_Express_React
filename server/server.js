@@ -28,7 +28,7 @@ async function init() {
 
     //Routes
     app.use("/api", ProductRouter)
-    app.use(Server, ExampleRouter)
+    app.use("/api", ExampleRouter)
 
     //Start Server
     app.listen(port, () => console.log(`🚀  Server ready at ${port}`));

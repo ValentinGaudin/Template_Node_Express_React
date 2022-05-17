@@ -9,6 +9,6 @@ router.use(function timeLog(req, res, next) {
     next();
 });
 
-router.get('/example', ExampleController.getExemple);
+router.get('/test', ExampleController.getExemple);
 
 module.exports = router;
