@@ -14,7 +14,6 @@ class Server {
     }
 }
 async function init() {
-
     Server = new Server("/api")
     
     console.log('Wait connection');
